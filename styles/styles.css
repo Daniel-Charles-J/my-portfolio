@@ -255,6 +255,14 @@
   .work-intro{
      margin-top: 100px;
   }
+
+  .aa{
+    background-color: #f0535d;
+    color: #1c2273;
+  }
+  .container1{
+    display: flex;
+  }
   @media (max-width: 900px){
      .about-container{
          display: flex;
