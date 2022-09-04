@@ -273,19 +273,45 @@
 }
   .container1{
     display: flex;
-    align-items: center;
     padding-left: 50px;
     padding-right: 50px;
     
   }
-  .container1 h4{
-    margin-bottom: 70px;
-  }
+  /* .container1 h4{
+    margin-bottom: 150px;
+  } */
+  
   .container-left1{
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .container-left1 h4{
+     margin-top: 40px;
+     font-size: 1.55rem;
+  }
+  .container-left1 p{
+    line-height: 1.55;
+    font-size: 1.3rem;
+    margin-top: 20px;
   }
   .container-right1{
+    margin-top: 40px;
     width: 50%;
+  }
+  .git-btn{
+    margin-top: 20px;
+  }
+  .git{
+    margin-bottom: 7px;
+    background-color: #a1eacd;
+    font-family: "Poppins", sans-serif;
+    padding: 0.5rem 1.5rem 1rem;
+    font-size: medium;
+    font-weight: 550;
+    border: none;
+    margin-right: 5px;
   }
 
 
@@ -310,5 +336,18 @@
          text-align: center;
          margin-left: 100px;
      }
+     .container1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+     
+  }
+  @media (max-width: 700px){
+    .image-1{
+        height: 200px;
+        width: 250px;
+        padding: 0px;
+    }
   }
   
