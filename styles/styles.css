@@ -301,13 +301,12 @@
     width: 50%;
   }
   .git-btn{
-    margin-top: 20px;
+    margin-top: 30px;
   }
   .git{
-    margin-bottom: 7px;
     background-color: #a1eacd;
     font-family: "Poppins", sans-serif;
-    padding: 0.5rem 1.5rem 1rem;
+    padding: 1rem 1.5rem 1rem;
     font-size: medium;
     font-weight: 550;
     border: none;
@@ -351,4 +350,31 @@
         padding: 0px;
     }
   }
+
+  @media (max-width: 650px){
+    .git{
+        /* display: flex;
+        justify-content: space-around; */
+        background-color: #a1eacd;
+        font-family: "Poppins", sans-serif;
+        padding: 1rem 1.5rem 1rem;
+        font-size: medium;
+        font-weight: 550;
+        border: none;
+        margin-right: 5px;
+        color: black;
+        text-align: center;
+       
+      }
+      .git-btn{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+      }
+      .containers{
+        margin-left: -40px;
+      }
+      
+  }
+
   
