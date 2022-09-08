@@ -346,7 +346,10 @@
         width: 80%;
         display: flex;
         flex-direction: column;
-        
+      }
+      .rev-container{
+        display:flex;
+       flex-direction: column-reverse;
       }
      
   }
@@ -394,11 +397,10 @@
         margin-top: 40px;
         width: 60%;
       }
-      /* .rev-container{
+      .rev-container{
         display:flex;
-        /* flex-direction: column; */
        flex-direction: column-reverse;
-      } */
+      }
       
   }
 
