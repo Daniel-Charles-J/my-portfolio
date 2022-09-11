@@ -60,7 +60,7 @@
      font-weight: 800;
      cursor: pointer;
  }
- 
+
  /* header section completed */
  .main-section{
      background-color: #48d8a4;
@@ -359,8 +359,6 @@
 
   @media (max-width: 650px){
     .git{
-        /* display: flex;
-        justify-content: space-around; */
         background-color: #a1eacd;
         font-family: "Poppins", sans-serif;
         padding: 1rem 1.5rem 1rem;
