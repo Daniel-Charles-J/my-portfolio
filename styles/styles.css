@@ -32,7 +32,7 @@
      font-size: 1.4rem;
      font-weight: 600;
      line-height: 1.3;
-     color: #eeb4aa;
+     color: #000000;
      max-width: 600px;
      letter-spacing: 0.02rem;
      margin: 1rem 0 -0.5rem;
@@ -301,7 +301,7 @@
     width: 50%;
   }
   .git-btn{
-    margin-top: 30px;
+    margin-top: 50px;
   }
   .git{
     background-color: #a1eacd;
